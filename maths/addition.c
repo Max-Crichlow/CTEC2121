@@ -9,9 +9,9 @@ int main()
     scanf("%d %d", &firstNumber, &secondNumber);
 
     // sum of two numbers in stored in variable sumOfTwoNumbers
-    sumOfTwoNumbers = firstNumber + secondNumber;
+    sumOfTwoNumbers = firstNumber - secondNumber;
 
     // Displays sum      
-    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+    printf("%d - %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
 
     return 0;
